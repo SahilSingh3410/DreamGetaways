@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <span class = "logo-name"><span class="logo-first-name">Dream</span>Getaways</span>
+            <input type="checkbox" id="nav_check" hidden>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="categories/temples.html">Temples</a></li>
+                            <li><a href="categories/monuments.html">Monuments</a></li>
+                            <li><a href="categories/parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\places\delhi.html">Delhi</a></li>
+                            <li><a href="D:\AWT project\places\up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+        
+                <ul>
+                    <li class = "hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="categories/temples.html">Temples</a></li>
+                            <li><a href="categories/monuments.html">Monuments</a></li>
+                            <li><a href="categories/parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="places/delhi.html">Delhi</a></li>
+                            <li><a href="places/up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#">About Us</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero-section">
+        <div class="main-text hero-section-child">
+            <div class="static-txt">Where do you want to go...?</div>
+            <ul class="dynamic-txts">
+                <li><span>Temple</span></li>
+                <li><span>Park</span></li>
+                <li><span>Monument</span></li>
+                <li><span>Park</span></li>
+            </ul>
+        </div>
+    
+        <div class="main-body-img hero-section-child"></div>
+    </div>
+
+    <div class="join-section">
+        <div id = "join-text">JOIN US ON</div>
+        <div class="join-content">
+            <div class="join-box">
+                <span class = "social-media-logo"><a href="#"><i class="fa-brands fa-youtube" style="color: #f44336;"></i></a></span><br>
+                <span class="social-media-text">Youtube</span>
+            </div>
+            <div class="join-box">
+                <span class = "social-media-logo"><a href="#"><i class="fa-brands fa-instagram" style="color: #e91e63;"></i></a></span><br>
+                <span class="social-media-text">Instagram</span>
+            </div>
+            <div class="join-box">
+                <span class = "social-media-logo"><a href="#"><i class="fa-brands fa-telegram" style="color: #03a9f4;"></i></a></span><br>
+                <span class="social-media-text">Telegram</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <span id = "copyright">&#169; 2023-2024 All Rights Reserved.</span>
+            <span id = "developer-tag">Made with &hearts; by Sahil</span>
+        </div>
+    </footer>
+    
+
+
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+    </script>
+
+</body>
+</html>
