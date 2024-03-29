@@ -224,7 +224,7 @@ header ul .submenu li a{
 
 .main-body-img {
   border-radius: 20px;
-  background-image: url("DreamGetaways\images\akshardham.avif");
+  background-image: url("/images/akshardham.avif");
   background-size: cover;
   animation: changeImg 25s ease-in-out infinite;
   position: relative;
