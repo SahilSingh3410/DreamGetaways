@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourism</title>
+        <link rel="stylesheet" href="D:\AWT project\style.css">
+        <link rel = "stylesheet" href="D:\AWT project\style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <header>
+        <div class="navbar">
+            <span class = "logo-name"><span class="logo-first-name">Dream</span>Getaways</span>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                    <li><a href="D:\AWT project\index.html">Home</a></li>
+                    <li><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\categories\temples.html">Temples</a></li>
+                            <li><a href="D:\AWT project\categories\monuments.html">Monuments</a></li>
+                            <li><a href="D:\AWT project\categories\parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\places\delhi.html">Delhi</a></li>
+                            <li><a href="D:\AWT project\places\up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+        
+                <ul>
+                    <li class = "hideOnMobile"><a href="D:\AWT project\index.html">Home</a></li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\categories\temples.html">Temples</a></li>
+                            <li><a href="D:\AWT project\categories\monuments.html">Monuments</a></li>
+                            <li><a href="D:\AWT project\categories\parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\places\delhi.html">Delhi</a></li>
+                            <li><a href="D:\AWT project\places\up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#">About Us</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<body>
+    <div class="main-container-first">
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\Red_fort.jpg" alt="img">
+            <span class = "element-heading"><h3>Red Fort</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Old Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Netaji+Subhash+Marg,+Lal+Qila,+Chandni+Chowk,+New+Delhi,+Delhi,+110006/@28.6561343,77.1586189,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!2m2!1d77.2410203!2d28.6561592?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://www.delhitourism.gov.in/delhitourism/hindi/tourist_place/red_fort.jsp" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\qutubMinar.jpg" alt="img">
+            <span class = "element-heading"><h3>Qutub Minar</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br>
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Seth+Sarai,+Mehrauli,+New+Delhi,+Delhi+110030/@28.5244697,77.1031163,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390d1e065dc72379:0xf6e7259f610de1d7!2m2!1d77.1855177!2d28.5244946?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://delhitourism.gov.in/delhitourism/tourist_place/qutab_minar.jsp" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\LotusTemple.jpg" alt="img">
+            <span class = "element-heading"><h3>Lotus Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Lotus+Temple+Rd+Bahapur,+Kalkaji,+New+Delhi,+Delhi+110019/@28.5534671,77.176425,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce3c16e028cd1:0x653beb1ee85ec67a!2m2!1d77.2588264!2d28.553492?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://bahaihouseofworship.in/" target="_blank">Know more</a>
+            </span>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\tajMahal.webp" alt="img">
+            <span class = "element-heading"><h3>Taj Mahal</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Agra, Uttar Pradesh</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Dharmapuri,+Forest+Colony,+Tajganj,+Agra,+Uttar+Pradesh+282001/@27.1751207,77.9597407,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39747121d702ff6d:0xdd2ae4803f767dde!2m2!1d78.0421422!2d27.1751448?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://www.tajmahal.gov.in/" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\rashtrapatiBhavan.webp" alt="img">
+            <span class = "element-heading"><h3>Rashtrapati Bhavan</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Rashtrapati+Bhavan,+Rashtrapati+Bhawan,+President's+Estate,+New+Delhi,+Delhi+110004/@28.6147651,77.1866498,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce2a99b6f9fa7:0x83a25e55f0af1c82!2m2!1d77.19943!2d28.6143478?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://rashtrapatibhavan.gov.in/" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\jantarMantar.jpg" alt="img">
+            <span class = "element-heading"><h3>Jantar Mantar</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//J6G8%2BRMC,+Connaught+Place,+Sansad+Marg,+New+Delhi,+Delhi+110001/@28.6270298,77.1342253,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cfd4a694fc49b:0xa24a6ec962781b0c!2m2!1d77.2166267!2d28.6270547?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://www.jantarmantar.org/" target="_blank">Know more</a>
+            </span>
+        </div>
+    </div>
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+    </script>  
+</body>
+
+<footer>
+    <div class="footer-section">
+        <span id = "copyright">&#169; 2023-2024 All Rights Reserved.</span>
+        <span id = "developer-tag">Made with &hearts; by Sahil</span>
+    </div>
+</footer>
+</html>

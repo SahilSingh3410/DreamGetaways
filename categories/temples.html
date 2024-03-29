@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourism</title>
+        <link rel="stylesheet" href="D:\AWT project\style.css">
+        <link rel = "stylesheet" href="D:\AWT project\style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <header>
+        <div class="navbar">
+            <span class = "logo-name"><span class="logo-first-name">Dream</span>Getaways</span>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                    <li><a href="D:\AWT project\index.html">Home</a></li>
+                    <li><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\categories\temples.html">Temples</a></li>
+                            <li><a href="D:\AWT project\categories\monuments.html">Monuments</a></li>
+                            <li><a href="D:\AWT project\categories\parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\places\delhi.html">Delhi</a></li>
+                            <li><a href="D:\AWT project\places\up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+        
+                <ul>
+                    <li class = "hideOnMobile"><a href="D:\AWT project\index.html">Home</a></li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Categories<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\categories\temples.html">Temples</a></li>
+                            <li><a href="D:\AWT project\categories\monuments.html">Monuments</a></li>
+                            <li><a href="D:\AWT project\categories\parks.html">Parks</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#" class = "drop-down">Places<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="D:\AWT project\places\delhi.html">Delhi</a></li>
+                            <li><a href="D:\AWT project\places\up.html">Uttar Pradesh</a></li>
+                        </ul>
+                    </li>
+                    <li class = "hideOnMobile"><a href="#">About Us</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<body>
+    <div class="main-container-first">
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\akshardham.avif" alt="img">
+            <span class = "element-heading"><h3>Akshardham Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//NH+24,+Pramukh+Swami+Maharaj+Marg,+Pandav+Nagar,+New+Delhi,+Delhi,+110092/@28.6126486,77.1948605,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce35b9975b1fb:0x69a09f265ef3b22a!2m2!1d77.2772619!2d28.6126735?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://akshardham.com/" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\ram_mandir_ayodhya.webp" alt="img">
+            <span class = "element-heading"><h3>Ram Mandir</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Ayodhya, Uttar Pradesh</span><br><br>
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5663354,77.3769717/Sree+Ram+Janmabhoomi+Mandir,+Sai+Nagar,+Ayodhya,+Uttar+Pradesh+224123/@27.6623226,79.7801166,7z/data=!3m1!4b1!4m18!1m8!3m7!1s0x399a07cd3079f0bf:0x5589e823b23ba9dc!2sSree+Ram+Janmabhoomi+Mandir!8m2!3d26.795688!4d82.194431!15sChJyYW0gbWFuZGlyIGF5b2RoeWFaFCIScmFtIG1hbmRpciBheW9kaHlhkgEMaGluZHVfdGVtcGxlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU01ZWtweFpVVjNFQUXgAQA!16s%2Fg%2F11h8d0y8yw!4m8!1m1!4e1!1m5!1m1!1s0x399a07cd3079f0bf:0x5589e823b23ba9dc!2m2!1d82.194431!2d26.795688?authuser=0&entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Ram_Mandir#:~:text=The%20Ram%20Mandir%20(%20lit.,a%20principal%20deity%20of%20Hinduism." target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\hanumanTemple.webp" alt="img">
+            <span class = "element-heading"><h3>Hanuman Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Jhandewalan, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5438222,77.3330176/Hanuman+Mandir+Karol+bagh,+324,+Saraswati+Marg,+Block+44Q,+Beadonpura,+Karol+Bagh,+New+Delhi,+Delhi,+110005/@28.5587865,77.2730043,11.75z/data=!4m18!1m8!3m7!1s0x390d029da94bf9d9:0xda267c5baef74594!2sHanuman+Mandir+Karol+bagh!8m2!3d28.6450368!4d77.1980618!15sChpoYW51bWFuIHRlbXBsZSBqaGFuZGV3YWxhblocIhpoYW51bWFuIHRlbXBsZSBqaGFuZGV3YWxhbpIBDGhpbmR1X3RlbXBsZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSQmMwNXVaM1JuUlJBQuABAA!16s%2Fg%2F11cn8pr65y!4m8!1m1!4e1!1m5!1m1!1s0x390d029da94bf9d9:0xda267c5baef74594!2m2!1d77.1980618!2d28.6450368?authuser=0&entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://www.tourmyindia.com/states/delhi/jhandewalan-hanuman-temple.html" target="_blank">Know more</a>
+            </span>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\khatuShyam.avif" alt="img">
+            <span class = "element-heading"><h3>Khatu Shyam Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Sikar, Rajasthan</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5438447,77.3330423/Khatu+Shyam+Ji+Temple,+Rajasthan+332404/@27.8226314,75.7889334,9.36z/data=!4m18!1m8!3m7!1s0x396ceff09c685b85:0x259e50a57130f8ac!2sKhatu+Shyam+Ji+Temple,+Rajasthan+332404!3b1!8m2!3d27.3622905!4d75.5198166!16s%2Fg%2F11g_pb5f9!4m8!1m1!4e1!1m5!1m1!1s0x396ceff09c685b85:0x259e50a57130f8ac!2m2!1d75.5198166!2d27.3622905?authuser=0&entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>                 <a href="https://en.wikipedia.org/wiki/Khatu_Shyam_Temple" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\isckon.webp" alt="img">
+            <span class = "element-heading"><h3>ISCKON Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Noida, Uttar Pradesh</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.543845,77.333045/ISKCON+Temple+Noida,+A-5,+Maharaja+Agrasen+Marg,+Opposite+Opposite+NTPC+office,+Block+A,+Sector+33,+Noida,+Uttar+Pradesh+201301/@28.5654511,77.3149438,14z/data=!3m1!4b1!4m20!1m10!3m9!1s0x390ce5a12fee7d95:0x8bb417c53d8d172b!2sISKCON+Temple+Noida!5m2!4m1!1i2!8m2!3d28.5867329!4d77.3502744!16s%2Fg%2F1wt3lsgf!4m8!1m1!4e1!1m5!1m1!1s0x390ce5a12fee7d95:0x8bb417c53d8d172b!2m2!1d77.3502744!2d28.5867329?authuser=0&entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://iskconnoida.org/" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\kalkajiMandir.jpg" alt="img">
+            <span class = "element-heading"><h3>Shri Kalkaji Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br> 
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5438147,77.3330233/Shri+Kalka+Ji+Temple,+Metro+Station,+Near,+Ma+Anandmayee+Marg,+NSIC+Estate,+Block+9,+Kalkaji,+New+Delhi,+Delhi+110019/@28.558505,77.2488998,13z/data=!3m1!4b1!4m12!1m2!2m1!1skalkaji+temple!4m8!1m1!4e1!1m5!1m1!1s0x390ce3c2fe2bd79b:0x95af156342417767!2m2!1d77.2607232!2d28.549838?authuser=0&entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://skmpsc.org/" target="_blank">Know more</a>
+            </span>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\golden_temple.jpg" alt="img">
+            <span class = "element-heading"><h3>The Golden Temple</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Amritsar, Punjab</span><br><br>
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir//Atta+Mandi,+Katra+Ahluwalia,+Amritsar,+Amritsar+Cantt.,+Punjab+143006/@31.6199538,74.7940836,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x39197ca8f667bd97:0x604384897626248e!2m2!1d74.8764849!2d31.6199803?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://www.goldentempleamritsar.org/" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\birlaTemple.jpg" alt="img">
+            <span class = "element-heading"><h3>Laxminarayan Temple (Birla Mandir)</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> New Delhi, Delhi</span><br><br>
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5550538,77.3439278/Shri+Laxmi+Narayan+Temple+(Birla+Mandir),+Mandir+Marg,+near+Gole+Market,+New+Delhi,+Delhi+110001/@28.5934542,77.1901006,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390cfcbaaa7edb15:0x2d2dc76b52aa7f6e!2m2!1d77.1989963!2d28.6326666?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Laxminarayan_Temple" target="_blank">Know more</a>
+            </span>
+        </div>
+        <div class="box">
+            <img class="element-image" src="D:\AWT project\images\PremMandir.jpg" alt="img">
+            <span class = "element-heading"><h3>Prem Mandir</h3></span>
+            <span class="element-location"><i class="fa-solid fa-location-dot"></i> Vrindavan, Uttar Pradesh</span><br><br>
+            <span class="element-subtext">
+                <a href="https://www.google.com/maps/dir/28.5550538,77.3439278/Prem+Mandir,+Vrindavan,+Sri+Kripalu+Maharaj+Ji+Marg,+Raman+Reiti,+Vrindavan,+Uttar+Pradesh/@28.047895,76.8819584,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39736fb46ad6718b:0x59edc7620411f9f3!2m2!1d77.6720096!2d27.5718524?entry=ttu" target="_blank">Get Direction <i class="fa-solid fa-diamond-turn-right"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan" target="_blank">Know more</a>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+<footer>
+    <div class="footer-section">
+        <span id = "copyright">&#169; 2023-2024 All Rights Reserved.</span>
+        <span id = "developer-tag">Made with &hearts; by Sahil</span>
+    </div>
+</footer>
+</html>
